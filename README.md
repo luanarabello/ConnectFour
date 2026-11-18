@@ -16,7 +16,7 @@ Drop the colored tokens strategically, **take advantage of hidden bonus slots fo
 
 ## Key Features
 
-- **Randomized Token Colors:** Each match randomly assigns two distinct token designs from 6 available SVG colors (`cian`, `green`, `orange`, `pink`, `red`, and `yellow`).
+- **Randomized Token Colors:** Each match randomly assigns two distinct token designs from 6 available colors.
 - **Live Turn Indicator & Control Panel:** Displays both players' nicknames, assigned token icons, an active-turn arrow indicator, and the live 10-second turn timer.
 - **Turn-Locked Controls:** Input is automatically disabled during the Robot's turn and after a match ends to prevent invalid moves.
 
