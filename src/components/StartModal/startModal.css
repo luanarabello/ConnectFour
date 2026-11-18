@@ -1,0 +1,80 @@
+.start-container {
+    background-color: rgb(28, 55, 113);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.mencao {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.start-box {
+    z-index: 1000;
+    width: 600px;
+    border-radius: 30px;
+    background-color: rgb(242, 238, 247);
+    display: flex;
+    flex-direction: column;
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 40px 50px;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+    place-self: center;
+    font-size: 30px;
+    margin: 0 10px 10px;
+}
+
+.select-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.start-container button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(23, 210, 23);
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    color: rgb(36, 58, 36);
+    border: 1px solid darkgreen;
+    place-self: flex-end;
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+input[type="radio"] {
+    margin: 3px 5px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.two-players div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
