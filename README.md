@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Connect Four
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Connect Four** is a classic strategy and turn-based board game built in **React**.
+Drop the colored tokens strategically, **take advantage of hidden bonus slots for extra turns**, and be the first to align **4 tokens** horizontally, vertically, or diagonally before the turn timer runs out.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Gameplay & Mechanics
 
-### `npm start`
+- **Two Game Modes:** Play solo against an automated **Robot** opponent or compete locally in **2 Players** mode with customizable player nicknames.
+- **Drop & Stack Mechanics:** Select any column using the top arrows to drop a token into the lowest available row.
+- **Turn Timer:** Each player has a **10-second countdown** per move. If the timer reaches zero, the turn automatically passes to the opponent.
+- **Win & Draw Detection:** Automatically detects 4-in-a-row victories in any direction (vertical, horizontal, and both diagonals) as well as full-board draws, with a quick **Play Again** option.
+> ⭐ **Special Bonus Slots:** At the start of each match, **5 hidden special slots** are randomly placed across the board. Landing a token on one grants an **extra turn** immediately.
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Randomized Token Colors:** Each match randomly assigns two distinct token designs from 6 available SVG colors (`cian`, `green`, `orange`, `pink`, `red`, and `yellow`).
+- **Live Turn Indicator & Control Panel:** Displays both players' nicknames, assigned token icons, an active-turn arrow indicator, and the live 10-second turn timer.
+- **Turn-Locked Controls:** Input is automatically disabled during the Robot's turn and after a match ends to prevent invalid moves.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **React 19.1.0** (`react`, `react-dom`)
+- **Create React App** (`react-scripts` 5.0.1)
+- **JavaScript (ES6+) / JSX**
+- **CSS3 & SVG**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Luana Rabello (@luanarabello)**
+- **Maria Capitão (@mariagcpcapitao)**
